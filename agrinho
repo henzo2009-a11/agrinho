@@ -1,0 +1,108 @@
+agrinho/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>AGRINHO 2026</h1>
+  <p>Festejando a conexão campo-cidade</p>
+</header>
+
+<section class="banner">
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Campo">
+</section>
+
+<section class="conteudo">
+  <h2>Importância do Campo</h2>
+
+  <p>
+    O campo produz os alimentos que chegam às cidades todos os dias.
+    A agricultura é essencial para nossa sobrevivência e desenvolvimento.
+  </p>
+
+  <button onclick="mensagem()">Clique Aqui</button>
+
+  <p id="resultado"></p>
+</section>
+
+<footer>
+  <p>Projeto desenvolvido para o Concurso Agrinho</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+header {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.conteudo {
+  padding: 30px;
+  text-align: center;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+function mensagem() {
+  document.getElementById("resultado").innerHTML =
+    "Campo e cidade unidos por um futuro melhor!";
+}
+# Projeto Agrinho 2026
+
+Projeto criado para o programa Agrinho.
+
+## Tema
+Festejando a conexão campo-cidade
+
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
+
+## Objetivo
+Mostrar a importância da agricultura e da união entre campo e cidade.
